@@ -1,0 +1,17 @@
+#SUCCESS,2,i,inputsamples/TightVNC.txt,s,,o,inputsamples/icst2018-out.txt,c,2,random,2,repeat,1
+VncViewer,Base,Opt,Type,OptionsButtonFeat,OpShareFeat,OpMouse23Feat,OpCopyRectFeat,OpCursorShapeFeat,RefreshButtonFeat,AboutButtonFeat,RecordingFeat,OpRestrictedColorsFeat,OptionsFeat,MOpt,BOpt,DisconnectButtonFeat,ButtonFeature,OpEncodingFeat,OpViewFeat,OptionsMenuFeatures,VncViewerMain,RecordButtonFeat,OpJPEGqualityFeat,CtrlAltDelButtonFeat,VncViewerType,AltTabButtonFeat,OpCompressionFeat,ClipboardFeat,ClipboardButtonFeat
+TRUE,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true
+TRUE,true,true,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,true,false,false,true,false
+TRUE,true,true,true,true,false,true,false,true,false,false,false,false,true,true,true,false,true,true,false,true,true,false,true,false,true,true,true,false,false
+*,*,*,*,false,false,false,false,false,true,true,true,false,false,false,true,true,true,false,false,false,*,true,false,true,*,false,false,*,true
+*,*,*,*,false,true,false,true,false,false,false,true,true,true,true,*,false,*,false,true,true,*,true,false,true,*,true,false,false,false
+*,*,*,*,true,true,false,true,true,true,true,false,true,true,true,*,true,*,false,true,true,*,false,true,true,*,false,true,false,false
+*,*,*,*,false,true,true,false,false,true,false,true,true,*,*,*,true,*,true,true,*,*,false,false,false,*,false,true,*,true
+*,*,*,*,false,false,true,true,true,false,true,*,false,*,*,*,false,*,true,true,*,*,true,true,false,*,*,false,*,true
+*,*,*,*,*,*,*,*,*,false,*,*,*,false,false,*,true,*,*,*,false,*,*,*,*,*,true,*,false,*
+*,*,*,*,*,true,true,true,true,*,*,true,true,true,true,false,*,false,true,true,true,*,*,true,*,*,*,true,false,*
+*,*,*,*,*,*,*,*,*,*,*,*,*,true,false,false,*,true,*,*,true,*,*,*,*,*,*,*,*,*
+*,*,*,*,true,false,false,true,false,true,*,false,true,*,*,*,false,*,true,false,*,*,*,true,*,*,*,false,*,true
+*,*,*,*,true,true,true,*,true,*,*,*,false,*,*,*,*,*,false,false,*,*,*,false,*,*,*,*,*,*
+*,*,*,*,true,*,*,*,*,*,*,*,*,*,false,*,*,*,*,*,*,*,*,*,*,*,*,*,*,*
+TRUE,true,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,true,false,false,false,false

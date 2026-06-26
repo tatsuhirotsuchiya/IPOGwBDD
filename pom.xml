@@ -20,6 +20,36 @@
             <version>5.10.2</version>
             <scope>test</scope>
         </dependency>
+
+        <!-- Bundled jars in lib/ (no public Maven coordinates) wired in via system scope -->
+        <dependency>
+            <groupId>jdd</groupId>
+            <artifactId>jdd</artifactId>
+            <version>1.04</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/lib/jdd_104.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>org.sat4j</groupId>
+            <artifactId>org.sat4j.core</artifactId>
+            <version>2.3.5</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/lib/org.sat4j.core.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>saffron</groupId>
+            <artifactId>saffron.bits</artifactId>
+            <version>2.0</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/lib/saffron.bits_2.0.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>saffron</groupId>
+            <artifactId>saffron.bits.exceptions</artifactId>
+            <version>2.0</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/lib/saffron.bits.eceptions_2.0.jar</systemPath>
+        </dependency>
     </dependencies>
 
     <build>

@@ -1,0 +1,6 @@
+p3 (Thick Thin Normal)
+p2 (Bypass Tray1 Tray2)
+p1 (B4 A4 B5)
+
+(if (== [p1] B4) (== [p2] Bypass))
+(if (== [p2] Bypass) (<> [p3] Thick))
