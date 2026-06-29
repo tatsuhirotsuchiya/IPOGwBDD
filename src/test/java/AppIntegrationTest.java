@@ -5,7 +5,7 @@ public class AppIntegrationTest {
     @Test
     public void testMain() {
         String path = "src/test/resources/inputsamples/";
-        String[] args = {"-i", path + "model1"};
+        String[] args = {"-i", path + "simple00.txt"};
         Main.main(args);
     }
 }

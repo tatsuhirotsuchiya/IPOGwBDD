@@ -292,8 +292,16 @@ public class InputFileData {
 			//	NodeAndConstrainedParameters res = new Parse(t, parameterList).extendedParseExpression();
 			res.ChildList.add(n);
 		}
-		if (res.ChildList.size() <= 1) {
+		// FIXME: bug. if size = 0, then you cannot get 0th item!
+		// If there are no constraints, it fails.
+		// if (res.ChildList.size() <= 1) {
+		if (res.ChildList.size() == 1) {
 			return res.ChildList.get(0);
+		}
+		else if (res.ChildList.size() == 0) {
+			// I want to emit an error message here.
+			System.err.print("Currently, this program fails if there are no constraints.");
+			System.exit(-1);
 		}
 		return res;
 	}
